@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Va propunem o varianta de cazare economica si de calitate in acelasi timp in Bucuresti."
+		/>
+		<meta name="keywords" content="pensiune, restaurant, pensiune Bucuresti" />
+
+		<!--CSS link-->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 1024px)"
+			href="css/large.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="css/medium.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 425px)"
+			href="css/small.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 375px)"
+			href="css/extrasmall.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
+		<title>Casa Mica | Welcome</title>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation__container container">
+				<div class="navigation__logo-container">
+					<h1 class="navigation__logo">
+						<a href="index.html">Guesthouse Casa Mica</a>
+					</h1>
+					<ul class="social-icon-list">
+						<li>
+							<a href="#"><i class="fab fa-facebook-square"></i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#" class="translate-text" id="book_room_btn"
+								>Book Room</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<input type="checkbox" id="check" />
+				<label for="check" class="checkbtn">
+					<i class="fas fa-bars"></i>
+				</label>
+				<button class="translate-btn">Translate</button>
+				<ul class="navigation__list">
+					<li class="list-item">
+						<a href="index.html" class="navigation__link">Home</a>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-1" />
+						<label for="submenu-1" class="toggle"
+							>Gallery <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="about.html" class="navigation__link">Courtyard</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="events.html" class="navigation__link">Rooms</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="attractions.html" class="navigation__link"
+									>Library Hall</a
+								>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="attractions.html" class="navigation__link"
+									>Events Hall</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-2" />
+						<label for="submenu-2" class="toggle"
+							>Rooms <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="coupleroom.html" class="navigation__link">VIP Room </a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="doubleroom.html" class="navigation__link"
+									>Basic Room</a
+								>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="tripleroom.html" class="navigation__link"
+									>Modest Room</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item">
+						<a href="contact.html" class="navigation__link">Contact</a>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-3" />
+						<label for="submenu-3" class="toggle"
+							>Useful Info <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="about.html" class="navigation__link">About Us</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="events.html" class="navigation__link">Events</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="attractions.html" class="navigation__link"
+									>Attractions</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<header class="mt-6">
+			<div id="showcase">
+				<div class="container showcase__container">
+					<div class="showcase__content">
+						<h1 class="translate-text" id="showcase_title">
+							Guesthouse Casa Mică
+						</h1>
+						<!--<p class="text-primary translate-text" id="showcase-description">
+							We have combined the comfort of a 3 stars hotel with the
+							atmosphere of a boarding house.The yard, swimming pool, fruit
+							trees, green grass and as many flowers as possible render a
+							relaxing atmosphere after an extremely busy day in Bucharest.
+						</p>-->
+						<div class="star-container">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="logo">
+							<img src="images/Logo.jpg" alt="Logo image" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="services" class="py-5">
+			<h2 class="title-section">We Offer</h2>
+			<h3 class="service-title">Free Services</h3>
+			<div class="services__container container included-services">
+				<div class="service service-1">
+					<i class="fas fa-swimming-pool"></i>
+					<h4>Free pool access</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-wifi"></i>
+					<h4>Free Wi-fi</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-parking"></i>
+					<h4>Free Parking</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-tint"></i>
+					<h4>Free 1L water</h4>
+				</div>
+			</div>
+			<h3 class="service-title">Room facilities</h3>
+			<div class="services__container container room-facilities">
+				<div class="service">
+					<i class="fas fa-border-all"></i>
+					<h4>Private balcony</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-toilet"></i>
+					<h4>Private bathroom</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-wind"></i>
+					<h4>Air conditioning</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-thermometer-empty"></i>
+					<h4>Mini fridge</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-burn"></i>
+					<h4>Hair drier</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-tv"></i>
+					<h4>Cable TV</h4>
+				</div>
+			</div>
+
+			<h3 class="service-title">Facilities</h3>
+			<div class="services__container container facilities-container">
+				<div class="service">
+					<i class="fas fa-shuttle-van"></i>
+					<h4>Terrace</h4>
+				</div>
+				<!--
+				<div class="service">
+					<i class="fas fa-tshirt"></i>
+					<h4>green space</h4>
+				</div> -->
+				<div class="service">
+					<i class="fas fa-calendar-check"></i>
+					<h4>Breakfast</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-campground"></i>
+					<h4>24 Hour self check in</h4>
+				</div>
+			</div>
+
+			<h3 class="service-title">Payment with Vouchers</h3>
+			<div class="services__container container voucher__container">
+				<div class="service">
+					<h4>Up Romania</h4>
+					<div class="voucher-pic">
+						<img
+							src="images/vouchers/Vocuher_UP.jpg"
+							alt="voucher up romania"
+						/>
+					</div>
+					<div class="card-pic">
+						<img src="images/vouchers/Card_UP.jpg" alt="card up" />
+					</div>
+				</div>
+				<div class="service">
+					<h4>Sodexo</h4>
+					<div class="voucher-pic">
+						<img
+							src="images/vouchers/Voucher_SODEXO.jpg"
+							alt="voucher sodexo"
+						/>
+					</div>
+					<div class="card-pic">
+						<img src="images/vouchers/Card_SODEXO.jpg" alt="card sodexo" />
+					</div>
+				</div>
+				<div class="service">
+					<h4>Edenred</h4>
+					<div class="voucher-pic">
+						<img
+							src="images/vouchers/Voucher_EDENRED.jpg"
+							alt="voucher edenred"
+						/>
+					</div>
+					<div class="card-pic">
+						<img src="images/vouchers/Card_EDENRED.jpg" alt="card edenred" />
+					</div>
+				</div>
+			</div>
+
+			<h3 class="service-title">Optional services</h3>
+			<div class="services__container container">
+				<div class="service">
+					<i class="fas fa-shuttle-van"></i>
+					<h4>Airport transport</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-tshirt"></i>
+					<h4>Washroom</h4>
+				</div>
+				<div class="service">
+					<i class="fas fa-calendar-check"></i>
+					<h4>Organizing events</h4>
+				</div>
+
+				<div class="service">
+					<i class="fas fa-bicycle"></i>
+					<h4>Bicycle rent</h4>
+				</div>
+			</div>
+		</section>
+
+		<section id="testimonials" class="py-5 bg-light-green">
+			<h2 class="green-title-section">Our grades speak for themselves</h2>
+			<div class="testimonials__container">
+				<div class="carousel">
+					<div class="carousel__track-container">
+						<ul class="carousel__track">
+							<li class="carousel__slide">
+								<img
+									class="carousel-image"
+									src="images/testimonials/airbnb.png"
+									alt="Airbnb score"
+								/>
+							</li>
+							<li class="carousel__slide">
+								<img
+									class="carousel-image"
+									src="images/testimonials/booking.png"
+									alt="Booking score"
+								/>
+							</li>
+							<li class="carousel__slide">
+								<img
+									class="carousel-image"
+									src="images/testimonials/expedia.png"
+									alt="Expedia score"
+								/>
+							</li>
+							<li class="carousel__slide">
+								<img
+									class="carousel-image"
+									src="images/testimonials/google.png"
+									alt="Google score"
+								/>
+							</li>
+							<li class="carousel__slide">
+								<img
+									class="carousel-image"
+									src="images/testimonials/travelminit.png"
+									alt="Travelminit score"
+								/>
+							</li>
+						</ul>
+					</div>
+					<button class="carousel__btn left-btn">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="carousel__btn right-btn">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+					<div class="carousel__nav">
+						<button class="carousel__indicator" data-slide="0"></button
+						><button class="carousel__indicator" data-slide="1"></button
+						><button class="carousel__indicator" data-slide="2"></button>
+						<button class="carousel__indicator" data-slide="3"></button>
+						<button class="carousel__indicator" data-slide="4"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="rent-section" class="py-5">
+			<div class="rent__container container">
+				<div class="room-container">
+					<h2>Accommodation Rates</h2>
+				</div>
+				<div class="rent-form-container">
+					<h2>Contact Us</h2>
+					<p>Please fill out the form below to contact us</p>
+					<div class="form-container">
+						<form autocomplete="off">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea type="text" name="message" id="myText"> </textarea>
+							</div>
+							<button
+								type="submit"
+								class="btn btn-light"
+								onclick="sendMail(); return false"
+							>
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<a href="tel:0040726150412" class="phone-button">
+			<i class="fas fa-phone"></i
+		></a>
+		<a
+			href="https://api.whatsapp.com/send?
+			phone=0040726150412"
+			target="_blank"
+			title="click to open whatsapp chat"
+			class="whatsapp-button"
+		>
+			&nbsp;</a
+		>
+
+		<footer id="footer">
+			<p>Casa Mica &copy; 2020, All Rights Reserved</p>
+		</footer>
+		<script src="js/carousel.js"></script>
+		<script src="js/translate.js"></script>
+	</body>
+</html>
+
+<!--
+	<section id="offers" class="bg-light-green py-5">
+			<h2 class="green-title-section">We Want You To</h2>
+			<div class="offers__container container">
+				<div class="offer">
+					<div class="offer-picture">
+						<img
+							src="images/Piscina.jpg"
+							alt="Swimming pool"
+							class="round-borders"
+						/>
+					</div>
+					<p><span>E</span>njoy a relaxing day with fresh air at our pool</p>
+				</div>
+				<div class="offer">
+					<div class="offer-picture">
+						<img
+							src="images/Biblioteca.jpg"
+							alt="Restaurant"
+							class="round-borders"
+						/>
+					</div>
+					<p><span>E</span>ntertain yourself at our events</p>
+				</div>
+				<div class="offer">
+					<div class="offer-picture">
+						<img
+							src="images/Attractions/Centru Vechi.jpg"
+							alt="Old Town"
+							class="round-borders"
+						/>
+					</div>
+					<p><span>E</span>xplore attractions close to us</p>
+				</div>
+			</div>
+		</section>
+	<section id="rooms" class="py-5">
+			<h2 class="title-section">Our Rooms</h2>
+			<div class="rooms__container container">
+				<div class="room">
+					<div class="room-picture">
+						<img
+							src="images/rooms/couple_room/Couple Bedroom.jpg"
+							alt="Bedroom"
+						/>
+					</div>
+					<h3>Couples' Room</h3>
+					<div class="room-price">
+						<p>150 RON per night</p>
+						<a href="coupleroom.html" class="more-btn">More...</a>
+					</div>
+				</div>
+				<div class="room">
+					<div class="room-picture">
+						<img src="images/rooms/double_room/Bedroom-1.jpg" alt="Bedroom" />
+					</div>
+					<h3>Double Room</h3>
+					<div class="room-price">
+						<p>150 RON per night</p>
+						<a href="doubleroom.html" class="more-btn">More...</a>
+					</div>
+				</div>
+				<div class="room">
+					<div class="room-picture">
+						<img src="images/rooms/triple_room/Bedroom-2.jpg" alt="Bedroom" />
+					</div>
+					<h3>Triple Room</h3>
+					<div class="room-price">
+						<p>200 RON per night</p>
+						<a href="tripleroom.html" class="more-btn">More...</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	
+	
+	
+	
+	-->

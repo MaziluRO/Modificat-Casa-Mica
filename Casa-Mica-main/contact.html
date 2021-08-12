@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Va propunem o varianta de cazare economica si de calitate in acelasi timp in Bucuresti."
+		/>
+		<meta name="keywords" content="pensiune, restaurant, pensiune Bucuresti" />
+
+		<!--CSS link-->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 1024px)"
+			href="css/large.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="css/medium.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 425px)"
+			href="css/small.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 375px)"
+			href="css/extrasmall.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<title>Casa Mica | Contact</title>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation__container container">
+				<h1 class="navigation__logo">
+					<a href="index.html">Guesthouse Casa Mica</a>
+				</h1>
+				<input type="checkbox" id="check" />
+				<label for="check" class="checkbtn">
+					<i class="fas fa-bars"></i>
+				</label>
+
+				<ul class="navigation__list">
+					<li class="list-item">
+						<a href="index.html" class="navigation__link">Home</a>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-1" />
+						<label for="submenu-1" class="toggle"
+							>About <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="about.html" class="navigation__link">About Us </a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="events.html" class="navigation__link">Events</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="attractions.html" class="navigation__link"
+									>Attractions</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-2" />
+						<label for="submenu-2" class="toggle"
+							>Rooms <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="coupleroom.html" class="navigation__link"
+									>Couples' room
+								</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="doubleroom.html" class="navigation__link"
+									>Double room</a
+								>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="tripleroom.html" class="navigation__link"
+									>Triple room</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item">
+						<a href="contact.html" class="navigation__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section id="contact-form" class="py-5 mt-6">
+			<div class="contact__container container">
+				<h1>Contact Us</h1>
+				<p>Please fill out the form below to contact us</p>
+				<div class="form-container">
+					<form autocomplete="off">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea type="text" name="message" id="myText"> </textarea>
+						</div>
+						<button
+							type="submit"
+							class="btn btn-light"
+							onclick="sendMail(); return false"
+						>
+							Submit
+						</button>
+					</form>
+					<div class="form-picture">
+						<img
+							src="images/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg"
+							alt="Contact buble picture"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact-info">
+			<div class="container contact-info__container">
+				<div class="contact">
+					<i class="fas fa-hotel fa-3x"></i>
+					<h3>Location</h3>
+					<p>Strada General Petre Popovat 76, Bucharest 060413 <br />Romania</p>
+				</div>
+				<div class="contact">
+					<i class="fas fa-phone fa-3x"></i>
+					<h3>Phone Number</h3>
+					<a href="tel:0040726150412" class="phone-number">+40 726 150 412</a>
+				</div>
+				<div class="contact">
+					<i class="fas fa-envelope fa-3x"></i>
+					<h3>E-mail Address</h3>
+					<!--<a href="mailto: pensiuneacasamica@gmail.com">Send Email</a>-->
+					<p>pensiuneacasamica@gmail.com</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="gmap_canvas">
+			<iframe
+				width="100%"
+				height="400"
+				id="gmap_canvas"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.317549624295!2d26.045145915811712!3d44.447159408744504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201947b2b1af1%3A0xaa3a15d78ea4f79a!2sStrada%20General%20Petre%20Popov%C4%83%C8%9B%2076%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1622051187938!5m2!1sen!2sro"
+				frameborder="0"
+				scrolling="no"
+				marginheight="0"
+				marginwidth="0"
+			>
+			</iframe>
+		</div>
+		<a href="tel:0040726150412" class="phone-button">
+			<i class="fas fa-phone"></i
+		></a>
+		<a
+			href="https://api.whatsapp.com/send?
+			phone=0040726150412"
+			target="_blank"
+			title="click to open whatsapp chat"
+			class="whatsapp-button"
+		>
+			&nbsp;</a
+		>
+
+		<footer id="footer">
+			<p>Casa Mica &copy; 2020, All Rights Reserved</p>
+		</footer>
+		<script src="js/contact.js"></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+html {
+	/*1rem = 9px */
+	font-size: 56.25%;
+}
+
+.navigation .navigation__list {
+	justify-content: space-between;
+}
+
+.navigation .navigation__list .list-item {
+	margin-left: unset;
+}
+
+/*
+.navigation .navigation__list .list-item:first-child {
+	margin-left: 10rem;
+}
+*/
+
+.title-section,
+.green-title-section {
+	font-size: 3.5rem;
+}
+
+#showcase .showcase__container {
+	width: 80%;
+}
+
+#showcase .showcase__content h1 {
+	font-size: 5rem;
+}
+
+#showcase .showcase__content p {
+	font-size: 2rem;
+}
+
+.home-info__content {
+	padding: 3rem 2.5rem;
+}
+
+.offers__container {
+	gap: 30px;
+}

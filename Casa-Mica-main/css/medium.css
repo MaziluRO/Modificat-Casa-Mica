@@ -1,0 +1,165 @@
+html {
+	/*1rem = 8px */
+	font-size: 50%;
+}
+
+:root {
+	--primary: #1da382;
+	--secondary: #8fffe3;
+	--tertiary: #6ff0cf;
+	--dark-yellow: #d9a338;
+	--orange: #ffa17a;
+	--black: #333;
+	--white: #fff;
+	--red: #f08d6e;
+	--dark-green: #445c56;
+}
+
+.navigation .navigation__container .navigation__list {
+	flex-basis: 60%;
+}
+
+.home-info__container {
+	flex-direction: column-reverse;
+	align-items: center;
+	height: 840px;
+}
+
+.home-info__content {
+	justify-content: center;
+	padding-top: 0;
+}
+
+.home-info__container .carousel {
+	width: 85%;
+	margin-top: 5rem;
+}
+
+#home-info {
+	padding: 5rem 3rem;
+	height: 950px;
+}
+
+.offers__container {
+	flex-direction: column;
+	gap: unset;
+}
+
+.offers__container {
+	align-items: center;
+}
+
+.offers__container .offer {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	text-align: center;
+}
+
+.offers__container .offer:not(:first-child) {
+	margin-top: 60px;
+}
+
+/*Rooms*/
+#rooms .rooms__container {
+	flex-direction: column;
+	gap: unset;
+}
+
+#rooms .rooms__container .room {
+	width: 70%;
+}
+
+#rooms .rooms__container .room:not(:first-child) {
+	margin-top: 60px;
+}
+
+/* ********* */
+/* ********* */
+/*About page   */
+#about .about__container {
+	flex-direction: column;
+}
+
+#about .about__container .about__description {
+	text-align: center;
+}
+
+#about .about__container .about__description {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#history .history__container {
+	text-align: center;
+}
+
+#services .services__container {
+	width: 50%;
+}
+
+/* ********* */
+/* ********* */
+/*Contact page   */
+#contact-info .contact-info__container {
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact-info .contact-info__container .contact:not(:first-child) {
+	margin-top: 40px;
+}
+
+#contact-info .contact-info__container .contact i {
+	font-size: 6rem;
+}
+
+#contact-form .form-container .form-picture {
+	align-self: center;
+	margin-bottom: 6rem;
+	margin-top: 0;
+}
+
+/* ********* */
+/* ********* */
+/*Events page   */
+#events .events__container .events__description {
+	width: unset;
+}
+
+.restaurant__container .restaurant-picture.main-picture,
+.library__container .library-picture.main-picture {
+	height: 400px;
+}
+
+.flex-container {
+	flex-direction: column;
+}
+
+/* ********* */
+/* ********* */
+/*Attractions page */
+#attractions .grid-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+/* ********* */
+/* ********* */
+/*room  gallery */
+.room-gallery .gallery__container {
+	flex-direction: column;
+	gap: unset;
+}
+
+.room-gallery .gallery__container .gallery-picture {
+	width: 70%;
+}
+
+.room-gallery .gallery__container .gallery-picture:not(:first-child) {
+	margin-top: 40px;
+}
+
+/*Modal */
+.modal-content {
+	width: 90%;
+}

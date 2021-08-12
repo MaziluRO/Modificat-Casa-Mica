@@ -1,0 +1,197 @@
+.checkbtn {
+	display: block;
+	line-height: 6rem;
+}
+
+.navigation .navigation__container .navigation__list {
+	position: fixed;
+	width: 30%;
+	top: 6rem;
+	right: -100%;
+	min-height: calc(60vh - 6rem);
+	background: var(--dark-green);
+	z-index: 1;
+	transition: all 0.5s;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.navigation .navigation__container .navigation__list .list-item {
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.navigation
+	.navigation__container
+	.navigation__list
+	.list-item.dropdown-menu
+	.dropdown-list {
+	width: 100%;
+	position: static;
+	transform: translateX(0);
+}
+
+#check:checked ~ .navigation__list {
+	right: 0;
+}
+
+.navigation
+	.navigation__container
+	.navigation__list
+	.list-item.dropdown-menu
+	.dropdown-list
+	.dropdown-list-item {
+	padding: 1rem;
+	background: var(--primary);
+}
+
+.navigation .navigation__container .navigation__list .list-item:hover {
+	background: none;
+	color: white;
+}
+
+.navigation
+	.navigation__container
+	.navigation__list
+	.list-item.dropdown-menu:hover
+	> .dropdown-list {
+	display: none;
+}
+
+#submenu-1:checked + .toggle + .dropdown-list,
+#submenu-2:checked + .toggle + .dropdown-list,
+#submenu-3:checked + .toggle + .dropdown-list {
+	display: block;
+}
+
+#submenu-1:checked ~ .toggle,
+#submenu-2:checked ~ .toggle,
+#submenu-3:checked ~ .toggle {
+	color: var(--orange);
+}
+
+/*showcase*/
+
+#showcase .showcase__content h1 {
+	font-size: 4rem;
+}
+
+#showcase .showcase__content p {
+	font-size: 1.6rem;
+}
+
+#showcase .showcase__container {
+	width: 90%;
+}
+
+.title-section,
+.green-title-section {
+	font-size: 3rem;
+}
+
+.home-info__content {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.home-info__container .carousel {
+	width: 100%;
+	flex-basis: 40%;
+}
+
+.offers__container .offer-picture {
+	height: 246px;
+}
+
+.offers__container > * {
+	width: 90%;
+}
+
+#rooms .rooms__container .room {
+	width: 90%;
+}
+
+/* ********* */
+/* ********* */
+/*About page   */
+#about .about__container {
+	height: 700px;
+}
+
+.about__container .carousel {
+	width: 80%;
+}
+
+#services .services__container {
+	width: 90%;
+}
+
+#history .history__container .history__description {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* ********* */
+/* ********* */
+/*Contact page   */
+#contact-form h1 {
+	font-size: 3rem;
+}
+
+#contact-form p {
+	font-size: 1.5rem;
+}
+
+#contact-form .form-container .form-picture {
+	display: none;
+}
+
+#contact-form .form-container form {
+	flex-basis: 100%;
+}
+
+#contact-form .form-container form .btn {
+	display: block;
+	margin-top: 3rem;
+	width: 100%;
+}
+
+/* ********* */
+/* ********* */
+/*events page   */
+.restaurant__container .restaurant-picture.main-picture,
+.library__container .library-picture.main-picture {
+	height: 300px;
+}
+
+.gallery-pics .pic {
+	height: 60px;
+}
+
+/* ********* */
+/* ********* */
+/*room  gallery */
+.room-section .couple__container {
+	flex-direction: column;
+}
+
+.room-gallery .gallery__container .gallery-picture {
+	width: 90%;
+	height: 215px;
+}
+
+/* ********* */
+/* ********* */
+/*Attractions  page */
+#attractions .grid-container {
+	grid-template-columns: 1fr;
+}
+
+/*Modal*/
+.modal-content .main-picture {
+	height: 300px;
+	width: 100%;
+}

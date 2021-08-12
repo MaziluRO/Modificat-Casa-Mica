@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Va propunem o varianta de cazare economica si de calitate in acelasi timp in Bucuresti."
+		/>
+		<meta name="keywords" content="pensiune, restaurant, pensiune Bucuresti" />
+
+		<!--CSS link-->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 1024px)"
+			href="css/large.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="css/medium.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 425px)"
+			href="css/small.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 375px)"
+			href="css/extrasmall.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<title>Casa Mica | Events</title>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation__container container">
+				<h1 class="navigation__logo">
+					<a href="index.html">Guesthouse Casa Mica</a>
+				</h1>
+				<input type="checkbox" id="check" />
+				<label for="check" class="checkbtn">
+					<i class="fas fa-bars"></i>
+				</label>
+
+				<ul class="navigation__list">
+					<li class="list-item">
+						<a href="index.html" class="navigation__link">Home</a>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-1" />
+						<label for="submenu-1" class="toggle"
+							>About <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="about.html" class="navigation__link">About Us </a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="events.html" class="navigation__link">Events</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="attractions.html" class="navigation__link"
+									>Attractions</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item dropdown-menu">
+						<input type="checkbox" id="submenu-2" />
+						<label for="submenu-2" class="toggle"
+							>Rooms <i class="fa fa-caret-down"></i
+						></label>
+
+						<ul class="dropdown-list">
+							<li class="dropdown-list-item">
+								<a href="coupleroom.html" class="navigation__link"
+									>Couples' room
+								</a>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="doubleroom.html" class="navigation__link"
+									>Double room</a
+								>
+							</li>
+							<li class="dropdown-list-item">
+								<a href="tripleroom.html" class="navigation__link"
+									>Triple room</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item">
+						<a href="contact.html" class="navigation__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="events" class="py-5 mt-6">
+			<div class="events__container container">
+				<!--	<div class="restaurant__picture">
+					<img src="images/restaurant.jpg" alt="Restaurant" />
+				</div>-->
+				<div class="events__description py-5">
+					<h2 class="title-section">Private Events</h2>
+					<p class="description-text">
+						If it wasn't enough to have 10 accommodation rooms, a restaurant, a
+						swimming pool, a swing and a cat, we also have two spacious rooms
+						where you can organize events.
+					</p>
+					<p class="description-text">
+						While our restaurant is closed, it can still be used to organize
+						private or corporate feasts, all within out 40 seats limit. You can
+						rent our restaurant for private events like: baptisms, weddings,
+						birthdays.
+					</p>
+					<p class="description-text">
+						The library is not just a simple activity room, but rather a space
+						for personal development. Development can be on any level, in any
+						field, depending on what you want.
+					</p>
+					<p class="description-text">The library comes equiped with:</p>
+					<ul class="check-list">
+						<li>
+							<i class="far fa-check-square"></i><span>Air condition</span>
+						</li>
+						<li>
+							<i class="far fa-check-square"></i
+							><span>Video projector + projection screen</span>
+						</li>
+						<li><i class="far fa-check-square"></i><span>Flipchart</span></li>
+						<li>
+							<i class="far fa-check-square"></i><span>Audio system</span>
+						</li>
+						<li>
+							<i class="far fa-check-square"></i><span>Wireless internet</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex-container container">
+				<div class="restaurant__container modal-item" id="restaurant">
+					<h2 class="title-section">Restaurant Events</h2>
+					<div class="restaurant-picture main-picture pic restaurant-pic">
+						<img src="images/Restaurant.jpg" alt="Restaurant" />
+					</div>
+
+					<div class="gallery-pics">
+						<div class="pic restaurant-pic">
+							<img src="images/Piscina.jpg" alt="" data-slide="1" />
+						</div>
+						<div class="pic restaurant-pic">
+							<img src="images/Biblioteca.jpg" alt="" data-slide="2" />
+						</div>
+						<div class="pic restaurant-pic">
+							<img src="images/despre_noi.png" alt="" data-slide="3" />
+						</div>
+					</div>
+				</div>
+
+				<!--
+				<div class="restaurant-description">
+					<ul class="check-list">
+						<li><i class="far fa-check-square"></i><span>Weddings</span></li>
+						<li>
+							<i class="far fa-check-square"></i><span>Anniversaries</span>
+						</li>
+						<li><i class="far fa-check-square"></i><span>Baptisms</span></li>
+					</ul>
+				</div>-->
+
+				<div class="library__container modal-item" id="library">
+					<h2 class="title-section">Library Events</h2>
+					<div class="library-picture main-picture pic library-pic">
+						<img src="images/Biblioteca.jpg" alt="Library" />
+					</div>
+
+					<!--
+					<div class="library-description">
+						<ul class="check-list">
+							<li><i class="far fa-check-square"></i><span>Weddings</span></li>
+							<li>
+								<i class="far fa-check-square"></i><span>Anniversaries</span>
+							</li>
+							<li><i class="far fa-check-square"></i><span>Baptisms</span></li>
+						</ul>
+					</div>-->
+
+					<div class="gallery-pics">
+						<div class="pic library-pic">
+							<img src="images/rooms/couple_room/Couple Bedroom.jpg" alt="" />
+						</div>
+						<div class="pic library-pic">
+							<img src="images/rooms/couple_room/Couple Terrace.jpg" alt="" />
+						</div>
+						<div class="pic library-pic">
+							<img src="images/despre_noi.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Modal-->
+		<div id="myModal" class="modal">
+			<span class="close cursor">&times;</span>
+			<div class="modal-content">
+				<div class="main-picture" id="modal-main-picture">
+					<!--<img src="images/Restaurant.jpg" alt="" />-->
+				</div>
+				<div class="pics-flex" id="modal-gallery-pics">
+					<!--<div class="pic"><img src="images/Piscina.jpg" alt="" /></div>
+					<div class="pic">
+						<img src="images/Biblioteca.jpg" alt="" />
+					</div>
+					<div class="pic">
+						<img src="images/despre_noi.png" alt="" />
+					</div>-->
+				</div>
+			</div>
+		</div>
+
+		<a href="tel:0040726150412" class="phone-button">
+			<i class="fas fa-phone"></i
+		></a>
+		<a
+			href="https://api.whatsapp.com/send?
+			phone=0040726150412"
+			target="_blank"
+			title="click to open whatsapp chat"
+			class="whatsapp-button"
+		>
+			&nbsp;</a
+		>
+
+		<footer id="footer">
+			<p>Casa Mica &copy; 2020, All Rights Reserved</p>
+		</footer>
+		<script src="js/lightbox.js"></script>
+	</body>
+</html>
